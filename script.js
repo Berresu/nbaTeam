@@ -1,6 +1,7 @@
 let oyunKurucular=["Jrue Holiday","Jevon Carter","Goran Dragić","Marcus Smart","Malcolm Brogdon","Derrick White","Payton Pritchard","JD Davison","James Harden","Tyrese Maxey","De'Anthony Melton","Shake Milton","Mac McClung","Donovan Mitchell","Darius Garland","Ricky Rubio","Raulzinho Neto","Jalen Brunson","Derrick Rose","Immanuel Quickley","Miles McBride","DaQuan Jeffries","Duane Washington Jr.","Ben Simmons","Seth Curry","Spencer Dinwiddie","Patty Mills","Edmond Sumner","Tyler Herro","Kyle Lowry","Gabe Vincent","Trae Young","Dejounte Murray","Vít Krejčí","Aaron Holiday","Fred VanVleet","Gary Trent Jr.","Dalano Banton","Malachi Flynn","Jeff Dowtin","Monté Morris","Delon Wright","Kendrick Nunn","Jordan Goodwin","Jamaree Bouyea","Lonzo Ball","Ayo Dosunmu","Alex Caruso","Coby White","Patrick Beverley","Carlik Jones","Tyrese Haliburton","Andrew Nembhard","T. J. McConnell","Trevelin Queen","George Hill","Markelle Fultz","Cole Anthony","Jalen Suggs","Michael Carter-Williams","LaMelo Ball","Terry Rozier","Dennis Smith Jr.","James Bouknight","Théo Maledon","Jaden Ivey","Killian Hayes","Cade Cunningham","Cory Joseph","R. J. Hampton","Jamal Murray","Collin Gillespie","Ish Smith","Reggie Jackson","Ja Morant","Tyus Jones","Kennedy Chandler","De'Aaron Fox","Davion Mitchell","Matthew Dellavedova","P. J. Dozier","Chris Paul","Cameron Payne","Saben Lee","Stephen Curry","Jordan Poole","Donte DiVincenzo","Gary Payton II","Ty Jerome","Mike Conley Jr.","Jaylen Nowell","Jordan McLaughlin","Luka Dončić","Kyrie Irving","Jaden Hardy","McKinley Wright IV","Frank Ntilikina","Russell Westbrook","Jason Preston","Nah'Shon Hyland","Xavier Moon","Jordan Clarkson","Collin Sexton","Kris Dunn","Damian Lillard","Anfernee Simons","Ryan Arcidiacono","D'Angelo Russell","Dennis Schröder","Scotty Pippen Jr.","C. J. McCollum","Jose Alvarado","Kira Lewis Jr.","Shai Gilgeous-Alexander","Josh Giddey","Isaiah Joe","Tre Mann","Jared Butler","Tre Jones","Devonte' Graham","Kevin Porter Jr.","TyTy Washington","Trevor Hudgins"];
 let oyunKurucuNumaraları=["21","5","7","36","13","9","11","20","1","0","8","18","9","45","10","13","19","11","4","5","2","8","40","10","30","26","8","4","14","7","2","11","5","27","3","23","33","45","22","20","22","55","20","7","11","2","12","6","0","21","22","0","2","9","8","7","20","50","4","11","1","3","8","2","9","23","7","2","18","13","27","21","14","7","12","21","1","5","15","8","35","3","15","38","30","3","0","8","10","10","4","6","77","2","3","23","21","0","1","3","15","00","2","11","0","1","51","1","17","14","3","15","13","2","3","11","23","14","33","4","3","0","12"];
 let oyunKurucuTakimlar=["Milwaukee Bucks","Milwaukee Bucks","Milwaukee Bucks","Boston Celtics","Boston Celtics","Boston Celtics","Boston Celtics","Boston Celtics","Philadelphia 76ers","Philadelphia 76ers","Philadelphia 76ers","Philadelphia 76ers","Philadelphia 76ers","Cleveland Cavaliers","Cleveland Cavaliers","Cleveland Cavaliers","Cleveland Cavaliers","New York Knicks","New York Knicks","New York Knicks","New York Knicks","New York Knicks","New York Knicks","Brooklyn Nets","Brooklyn Nets","Brooklyn Nets","Brooklyn Nets","Brooklyn Nets","Miami Heat","Miami Heat","Miami Heat","Atlanta Hawks","Atlanta Hawks","Atlanta Hawks","Atlanta Hawks","Toronto Raptors","Toronto Raptors","Toronto Raptors","Toronto Raptors","Toronto Raptors","Washington Wizards","Washington Wizards","Washington Wizards","Washington Wizards","Washington Wizards","Chicago Bulls","Chicago Bulls","Chicago Bulls","Chicago Bulls","Chicago Bulls","Chicago Bulls","Indiana Pacers","Indiana Pacers","Indiana Pacers","Indiana Pacers","Indiana Pacers","Orlando Magic","Orlando Magic","Orlando Magic","Orlando Magic","Charlotte Hornets","Charlotte Hornets","Charlotte Hornets","Charlotte Hornets","Charlotte Hornets","Detroit Pistons","Detroit Pistons","Detroit Pistons","Detroit Pistons","Detroit Pistons","Denver Nuggets","Denver Nuggets","Denver Nuggets","Denver Nuggets","Memphis Grizzlies","Memphis Grizzlies","Memphis Grizzlies","Sacramento Kings","Sacramento Kings","Sacramento Kings","Sacramento Kings","Phoenix Suns","Phoenix Suns","Phoenix Suns","Golden State Warriors","Golden State Warriors","Golden State Warriors","Golden State Warriors","Golden State Warriors","Minnesota Timberwolves","Minnesota Timberwolves","Minnesota Timberwolves","Dallas Mavericks","Dallas Mavericks","Dallas Mavericks","Dallas Mavericks","Dallas Mavericks","Los Angeles Clippers","Los Angeles Clippers","Los Angeles Clippers","Los Angeles Clippers","Utah Jazz","Utah Jazz","Utah Jazz","Portland Trail Blazers","Portland Trail Blazers","Portland Trail Blazers","Los Angeles Lakers","Los Angeles Lakers","Los Angeles Lakers","New Orleans Pelicans","New Orleans Pelicans","New Orleans Pelicans","Oklahoma City Thunder","Oklahoma City Thunder","Oklahoma City Thunder","Oklahoma City Thunder","Oklahoma City Thunder","San Antonio Spurs","San Antonio Spurs","Houston Rockets","Houston Rockets","Houston Rockets"];
+let oyunKurucuResimler=["imagesOyunKurucu/jureHoliday","imagesOyunKurucu/jevonCarter","imagesOyunKurucu/garonDragic","imagesOyunKurucu/marcusS","imagesOyunKurucu/derrickW"];
 
 let shootingGuardlar=["Malcolm Brogdon","Derrick White","Marcus Smart","Payton Pritchard","JD Davison","AJ Green","James Harden","Tyrese Maxey","De'Anthony Melton","Mac McClung","Shake Milton","Donovan Mitchell","Darius Garland","Ricky Rubio","Rualzinho Neto","Dru Smith","Jalen Brunson","Derrick Rose","Immanuel Quickley","Miles McBride","DaQuan Jeffries","Tyler Herro","Kyle Lowry","Gabe Vincent","Trent Forrest","Bradley Beal","Quenton Jackson","Fred VanVleet","Gary Trent Jr.","Dalano Banton","Malachi Flynn","Jeff Dowtin","Lonzo Ball","Ayo Dosunmu","Goran Dragic","Alex Caruso","Coby White","Carlik Jones","Tyrese Haliburton","Andrew Nembhard","T.J. MacConnell","Trevelin Queen","George Hill","Markelle Fultz","Jalen Suggs","Cole Anthony","R.J. Hampton","LaMelo Ball","Terry Rozier","Dennis Smith Jr.","James Bouknight","Théo Maledon","Buddy Boeheim","Jared Rhoden","Jamal Murray","Collin Gillespie","Ish Smith","Reggie Jackson","Ja Morant","Tyus Jones","Kennedy Chandler","Malik Monk","Keon Ellis","Nate Darling","Landry Shamet","A.J. Lawson","Dereon Seabron","Jaylen Nowell","Mike Conley Jr.","Jordan McLaughlin","Ryan Rollins","Eugene Omoruyi","Johnny Juzang","Damian Lillard","Anfernee Simons","Ryan Arcidiacono","Max Christie","Blake Wesley","Jalen Green","Josh Christopher","Daishen Nix"];
 let shootingGuardNumaraları=["13","9","36","11","20","20","1","0","8","9","18","45","10","13","19","9","11","4","5","2","8","14","7","2","2","3","29","23","33","45","22","20","2","12","7","6","0","22","0","2","9","8","7","20","4","50","13","1","3","8","9","23","27","8","27","21","14","91","12","21","1","0","23","30","14","9","0","4","10","6","2","97","33","0","1","51","10","14","4","9","15"];
@@ -20,21 +21,24 @@ let pivotTakimlari=["Milwaukee Bucks","Boston Celtics","Boston Celtics","Boston 
 
 const button=document.getElementById("btnDegistir");
 const oyunKurucu=document.getElementById("oyunKurucu");
-const shootingGuard=document.getElementById("shootingGuard");
-const kisaForvet=document.getElementById("kisaForvet");
-const uzunForvet=document.getElementById("uzunForvet");
-const pivot=document.getElementById("pivot");
-
 const oyunKurucuNumara=document.getElementById("oyunKurucuNumara");
-const shootingGuardNumara=document.getElementById("shootingGuardNumara");
-const kisaForvetNumara=document.getElementById("kisaForvetNumara");
-const uzunForvetNumara=document.getElementById("uzunForvetNumara");
-const pivotNumara=document.getElementById("pivotNumara");
-
 const oyunKurucuTakim=document.getElementById("oyunKurucuTakim");
+const oyunKurucuResim=document.getElementById("oyunKurucuResim");
+
+const shootingGuard=document.getElementById("shootingGuard");
+const shootingGuardNumara=document.getElementById("shootingGuardNumara");
 const shootingGuardTakim=document.getElementById("shootingGuardTakim");
+
+const kisaForvet=document.getElementById("kisaForvet");
+const kisaForvetNumara=document.getElementById("kisaForvetNumara");
 const kisaForvetTakim=document.getElementById("kisaForvetTakim");
+
+const uzunForvet=document.getElementById("uzunForvet");
+const uzunForvetNumara=document.getElementById("uzunForvetNumara");
 const uzunForvetTakim=document.getElementById("uzunForvetTakim");
+
+const pivot=document.getElementById("pivot");
+const pivotNumara=document.getElementById("pivotNumara");
 const pivotTakim=document.getElementById("pivotTakim");
 
 let sayi1=Math.floor(Math.random()*122);
@@ -47,6 +51,7 @@ console.log(oyunKurucuNumara);
 oyunKurucuTakim.innerHTML=oyunKurucuTakimlar[sayi1];
 console.log(sayi1);
 console.log(oyunKurucuTakim);
+oyunKurucuResim.setAttribute("src",oyunKurucuResimler[sayi1]);
 
 let sayi2=Math.floor(Math.random()*81);
 shootingGuard.innerHTML=shootingGuardlar[sayi2];
